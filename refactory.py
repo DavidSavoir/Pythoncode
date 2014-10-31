@@ -38,7 +38,6 @@ def book_title(title):
 
 def _test():
     import doctest, refactory
-    
     return doctest.testmod(refactory)
 
 if __name__ == "__main__":
